@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Assalariado_1 = require("./model/Assalariado");
+var a1 = new Assalariado_1.Assalariado("jubileu", "000000", 1500);
+a1.setNome("Wes\u00E7wy Sneijder");
+a1.setCpf("7070707070");
+a1.setSalario(2500);
+console.log("Nome: ".concat(a1.getNome(), ", CPF: ").concat(a1.getCpf));
+console.log("Sal\u00E1rio: ".concat(a1.getSalario()));
+console.log("Vencimento: ".concat(a1.vencimento));
